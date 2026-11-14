@@ -13,7 +13,7 @@ public class DbService
 {
     @Autowired
     DbRepository repo;
-    List<Employee> emp = new ArrayList<>();
+    List<Employee> employee = new ArrayList<>();
     public void addEmployee(Employee employee)
     {
         repo.save(employee);
